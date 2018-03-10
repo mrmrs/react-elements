@@ -1,0 +1,12 @@
+import glamorous from 'glamorous'
+import { space, width, fontSize, color } from 'styled-system'
+
+const Header = glamorous.header(space,  width, fontSize, color, {
+
+})
+
+Header.defaultProps = {
+
+}
+
+export default Header
