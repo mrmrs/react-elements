@@ -1,5 +1,8 @@
 import React from 'react';
 
+import Div from '../components/Div'
+import H1 from '../components/H1'
+
 export default class Home extends React.Component {
   componentDidMount() {
     this.jumpToHash(this.props.location.hash);
@@ -20,9 +23,9 @@ export default class Home extends React.Component {
 
   render () {
     return (
-      <div>
-
-      </div>
+      <Div p={5} bg='red' color='white'>
+        <H1 fontSize={[ 2, 3, 4 ]}>Home</H1>
+      </Div>
     );
   }
 }

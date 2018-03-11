@@ -16,7 +16,7 @@ class App extends Component {
       <Router>
         <ThemeProvider theme={theme}>
           <Div style={{
-            fontFamily: 'sans-serif'
+            fontFamily: theme.fontFamily.sansSerif
           }}>
             <Route exact path="/" component={Home} />
           </Div>

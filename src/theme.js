@@ -23,10 +23,8 @@ const theme = {
   lineHeights: [1, 1,25, 1.5],
   letterSpacing: [ '0.05em', '0.075em', '0.1em' ],
   colors: {
-    blue: 'hsl(230, 75%, 75%)',
-    red: 'hsl(24, 75%, 75%)',
-    orange: 'hsl(60, 75%, 75%)',
-    purple: 'hsl(280, 75%, 75%)',
+    blue: 'hsl(212, 75%, 50%)',
+    red: 'hsl(0, 75%, 50%)',
   }
 }
 
