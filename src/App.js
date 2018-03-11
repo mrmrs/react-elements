@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom'
 
 import Home from './pages/Home'
+import Div from './components/Div'
 
 import { ThemeProvider } from 'glamorous' 
 import theme from './theme'
@@ -14,9 +15,11 @@ class App extends Component {
     return (
       <Router>
         <ThemeProvider theme={theme}>
-          <div>
+          <Div style={{
+            fontFamily: 'sans-serif'
+          }}>
             <Route exact path="/" component={Home} />
-          </div>
+          </Div>
         </ThemeProvider>
       </Router>
     );
