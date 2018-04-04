@@ -1,8 +1,8 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import { space, width, fontSize, color, borders } from 'styled-system'
 
-const Footer = glamorous.footer(space,  width, fontSize, color, {
-
+const Footer = glamorous.footer(space, width, fontSize, color, borders, {
+  boxSizing: 'border-box'
 })
 
 Footer.defaultProps = {

@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import { space, width, fontSize, fontWeight, lineHeight, textAlign, color } from 'styled-system'
 
-const Span = glamorous.span(space,  width, fontSize, color, {
+const Span = glamorous.span(space, width, fontSize, fontWeight, lineHeight, textAlign, color, {
 
 })
 

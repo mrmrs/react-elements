@@ -1,12 +1,12 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import { space, width, fontSize, color, borders } from 'styled-system'
 
-const Div = glamorous.div(space, width, fontSize, color, {
-
+const Main = glamorous.div(space, width, fontSize, color, borders, {
+  boxSizing: 'border-box'
 })
 
-Div.defaultProps = {
+Main.defaultProps = {
   w: 1
 }
 
-export default Div
+export default Main

@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color } from 'styled-system'
+import { space, fontSize, fontWeight, color } from 'styled-system'
 
-const Strong = glamorous.strong(space,  width, fontSize, color, {
+const Strong = glamorous.strong(space, fontSize, fontWeight, color, {
 
 })
 

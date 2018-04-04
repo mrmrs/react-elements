@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, color } from 'styled-system'
+import { space, width, color, borders } from 'styled-system'
 
-const Hr = glamorous.hr(space, width, color, {
+const Hr = glamorous.hr(space, width, color, borders, {
 
 })
 
