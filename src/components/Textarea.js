@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, color, borders } from 'styled-system'
+import { space, width, fontSize, color, borders, borderRadius } from 'styled-system'
 
-const Textarea = glamorous.textarea(space, width, fontSize, color, borders, {
+const Textarea = glamorous.textarea(space, width, fontSize, color, borders, borderRadius, {
 
 })
 

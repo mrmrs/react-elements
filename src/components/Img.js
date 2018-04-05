@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, color } from 'styled-system'
+import { space, width, color, borders, borderRadius } from 'styled-system'
 
-const Img = glamorous.img(space, width, color, {
+const Img = glamorous.img(space, width, color, borders, borderRadius, {
   display: 'block',
   maxWidth: '100%',
 })

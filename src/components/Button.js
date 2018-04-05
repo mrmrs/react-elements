@@ -1,7 +1,7 @@
 import glamorous from 'glamorous'
-import { space, width, fontSize, fontWeight, color, borders } from 'styled-system'
+import { space, width, fontSize, fontWeight, color, borders, borderRadius } from 'styled-system'
 
-const Button = glamorous.button(space, width, fontSize, fontWeight, color, borders, {
+const Button = glamorous.button(space, width, fontSize, fontWeight, color, borders, borderRadius, {
   boxSizing: 'border-box'
 })
 
