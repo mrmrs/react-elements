@@ -6,7 +6,7 @@ const Strong = glamorous.strong(space, fontSize, fontWeight, color, {
 })
 
 Strong.defaultProps = {
-
+  fontWeight: 'bolder'
 }
 
 export default Strong

@@ -6,7 +6,7 @@ const B = glamorous.b(space, width, fontSize, fontWeight, color,  {
 })
 
 B.defaultProps = {
-
+  fontWeight: 'bolder'
 }
 
 export default B

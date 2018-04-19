@@ -6,7 +6,7 @@ const A = glamorous.a(space, width, fontSize, fontWeight, textAlign, color, disp
 })
 
 A.defaultProps = {
-
+  bg: 'transparent'
 }
 
 export default A
