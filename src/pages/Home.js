@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Div from '../components/Div'
-import H1 from '../components/H1'
+import Div from '../elements/Div'
+import H1 from '../elements/H1'
 
 export default class Home extends React.Component {
   componentDidMount() {

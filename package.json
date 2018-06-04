@@ -1,6 +1,6 @@
 {
-  "name": "glamorous-react-elements",
-  "version": "0.5.0",
+  "name": "glamorous-elements",
+  "version": "0.6.0",
   "private": true,
   "dependencies": {
     "glamor": "^2.20.40",
